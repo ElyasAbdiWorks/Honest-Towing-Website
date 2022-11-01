@@ -1,0 +1,218 @@
+.instant-quote-container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 200px 5vw 200px 10vw;
+    color: #383C4D;
+
+    h4 {
+        font-size: 2vw;
+        font-weight: 700;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .instant-quote-header {
+        width: 150%;
+        h2 {
+            font-size: 4.2vw;
+            width: 70%;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 1.3vw;
+            width: 80%;
+        }
+    }
+}
+
+.calculator-container {
+    width: 100%;
+    height: 100%;
+    margin-right: 10%;
+}
+
+.quote-calculator-container {
+    width: 100%;
+    height: 100%;
+}
+
+.get-name {
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+.get-service-container {
+    width: 100%;
+    height: 100%;
+
+    h4 {
+        font-size: 2vw;
+        font-weight: 700;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+.calc_btn {
+    background-color: $honest_blue;
+    color: white;
+    width: 27.5%;
+    height: 100%;
+    padding: 1vw;
+    border: none;
+    border-radius: 1.5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    box-shadow: 3.5px 4.5px 10px#77809cb4;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #d0d5f0;
+        color: #40455f;
+        box-shadow: 5px 6px 5px#848ba89a;
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+.confirm_btn {
+    background-color: $honest_blue;
+    color: white;
+    width: 40%;
+    height: 100%;
+    padding: 1.2vw;
+    border: none;
+    border-radius: 1.5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    box-shadow: 5px 6px 10px#848ba89a;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #d0d5f0;
+        color: #40455f;
+        box-shadow: 5px 6px 10px#848ba89a;
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+.back_btn {
+    background-color: #40455f;
+    color: white;
+    width: 27.5%;
+    height: 100%;
+    padding: 1vw;
+    border: none;
+    border-radius: 1.5vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-right: 10px;
+    box-shadow: 3.5px 4.5px 10px#5d6375d3;
+    &:hover {
+        cursor: pointer;
+        background-color: #dfe2f1;
+        color: #40455f;
+        box-shadow: 5px 6px 7.5px#848ba89a;
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+.current-location-container {
+    h4 {
+        font-size: 2vw;
+        margin-bottom: 25px;
+    }
+    select {
+        margin: 25px 0 25px 0;
+    }
+}
+
+.miles-container {
+    input {
+        margin: 25px 0 25px 0;
+    }
+}
+
+.location-container {
+    z-index: 50;
+}
+
+.suggestions {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ask-destination-container {
+    h4 {
+        margin-bottom: 25px;
+    }
+}
+
+.display-quote-container {
+    background: $quote-bg-color;
+    box-shadow: 12px 15px 2.5em #c1c3d1;
+    padding: 10%;
+    border-radius: 3vw;
+    .quote {
+        margin-top: 1.5vh;
+        .quote-info {
+            margin-bottom: 1vh;
+        }
+        .price-container {
+            font-size: 1.2vw;
+            padding: 10%;
+            background: #eceef5;
+            border-radius: 2vw;
+            box-shadow: 5px 6px 7.5px#848ba89a;
+            font-weight: 500;
+
+            .totals {
+                font-size: 1.5vw;
+                font-weight: 700;
+            }
+
+            .price {
+                margin-bottom: 1vh;
+            }
+            .final-price {
+                align-self: flex-end;
+            }   
+            .final {
+                font-size: 1.8vw;
+                font-weight: 700;
+            }
+            .total-price {
+                font-size: 1.5vw;
+                margin-bottom: 1vh;
+            }
+
+            button:hover {
+                cursor: pointer;
+                background-color: #dfe2f1;
+                color: #40455f;
+                box-shadow: 5px 6px 7.5px#848ba89a;
+                transition: all ease-in-out 0.25s;
+            }
+
+            .order_btn {
+                background-color: $honest_blue;
+                color: white;
+                width: 100%;
+                height: 100%;
+                padding: 1.2vw 1.5vw;
+                border: none;
+                border-radius: 1.8vw;
+                font-size: 2vw;
+                font-weight: 600;
+                box-shadow: 3.5px 4.5px 5px#77809cb4;
+            }
+        }
+    }
+}
+
+.confirm-details {
+    textarea {
+        margin-top: 5px;
+    }
+}

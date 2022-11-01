@@ -1,0 +1,18 @@
+.footer-container {
+    background-color: $footer_bg;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+
+    p:nth-child(2){
+        margin-top: 6px;
+    }
+
+    .daventus-logo {
+        font-weight: 600;
+        &:hover {
+            font-weight: 700;
+            transition: all ease-in-out .2s;
+        }
+    }
+}

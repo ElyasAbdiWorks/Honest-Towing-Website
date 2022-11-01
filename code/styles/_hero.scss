@@ -1,0 +1,67 @@
+.hero-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+
+    .hero-heading-container {
+        margin: 0 0 0 9vw;
+        width: 100%;
+        z-index: 5;
+        .hero-main-heading {
+            margin: 0 0 20px 0;
+        }
+        .hero-sub-heading {
+            margin: 0 0 20px 0;
+        }
+        h1 {
+            width: 60%;
+        }
+        h3 {
+            font-weight: 300;
+        }
+    }
+
+    .hero-bkg {
+        opacity: 0.94;
+    }
+
+    .main-hero {
+        z-index: 10;
+    }
+
+    .message-to-customer {
+        height: 15vh;
+        width: 100vw;
+        position: absolute;
+        bottom: 0;
+        z-index: 30;
+        color: #383C4D;
+        background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.219), rgba(255, 255, 255, 0.747),white);
+        font-weight: 700;
+
+        p {
+            font-size: 26px;
+            margin-right: 2vw;
+        }
+
+        .ad-cta-btn {
+            width: 200px;
+            height: 50px;
+            font-size: 22px;
+            border-radius: 18px;
+            box-shadow: 4px 8px 10px#61626867;
+            font-weight: 700;
+        }
+
+        .message-contents {
+            width: 40rem;
+            height: 5rem;
+            background: #ebefff81;
+            backdrop-filter: blur(40px);
+            box-shadow: 4px 7px 10px#61626867;
+            padding: 1em;
+            border-radius: 24px;
+        }
+    }
+}

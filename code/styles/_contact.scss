@@ -1,0 +1,39 @@
+.contact-container {
+    background: $contact_bg_clr;
+    width: 100%;
+    height: 100%;
+    padding: 100px 3vw 125px 11vw;
+
+    .contact-message {
+        width: 65%;
+        height: 100%;
+        h1 {
+            font-size: 4vw;
+        }
+        p {
+            margin-top: 2.5vw;
+            width: 70%;
+            font-size: 1.7vw;
+        }
+    }
+
+    .contact-info {
+        width: 35%;
+        height: 100%;
+        h5 {
+            font-size: 1.7vw;
+        }
+        p {
+            font-size: 1.2vw;
+            &:hover {
+                transition: all ease-in-out .2s;
+                font-weight: 600;
+            }
+        }
+        .email-container {
+            h5 {
+                margin-top: 50px;
+            }
+        }
+    }
+}

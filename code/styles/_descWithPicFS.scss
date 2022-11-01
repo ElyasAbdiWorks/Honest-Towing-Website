@@ -1,0 +1,65 @@
+.description-with-picture-fs-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .whiteleft {
+        background: linear-gradient(to right, white, rgb(255, 255, 255),rgba(255, 255, 255, 0.945), rgba(255, 255, 255, 0.589), rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0));
+    }
+
+    .desc-pic-bkg {
+        opacity: 0.65;
+    }
+
+    .content {
+        width: 100%;
+        height: 100vh;
+        z-index: 6;
+        padding: 25px 9vw;
+        align-items: flex-start;
+        justify-content: center;
+        h1 {
+            z-index: 6;
+            margin-bottom: 5vh;
+            font-size: 7vw;
+            width: 90%;
+        }
+        p {
+            z-index: 6;
+            width: 70%;
+            font-size: 1.5vw;
+            font-weight: 500;
+        }
+    }
+
+    &-reversed {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+
+        .whiteRight {
+            background: linear-gradient(to left, white, rgb(255, 255, 255),rgba(255, 255, 255, 0.945), rgba(255, 255, 255, 0.589), rgba(255, 255, 255, 0.199), rgba(255, 255, 255, 0));
+        }
+
+        .content {
+            width: 100%;
+            height: 100vh;
+            z-index: 6;
+            padding: 25px 9vw;
+            align-items: flex-end;
+            justify-content: center;
+            h1 {
+                z-index: 6;
+                margin-bottom: 5vh;
+                font-size: 7vw;
+            }
+            p {
+                z-index: 6;
+                width: 70%;
+                font-size: 1.5vw;
+                text-align: right;
+                font-weight: 500;
+            }
+        }
+    }
+}

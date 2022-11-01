@@ -1,0 +1,217 @@
+
+// primary call to action buttons
+.primary-cta-button {
+    background-color: $primary_cta_btn;
+    margin: 0;
+    padding: 24px 32px;
+    border: none;
+    border-radius: 28px;
+    font-size: 2.2vw;
+    font-weight: 700;
+    color: white;
+    box-shadow: 5px 6px 9px#747b8dd3;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #eaedfa;
+        color: #40455f;
+        box-shadow: 5px 6px 7.5px#848ba89a;
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+// secondary call to action buttons
+.secondary-cta-btn {
+    background-color: $secondary_cta_btn;
+    margin: 0;
+    padding: 24px 30px;
+    border: none;
+    border-radius: 23px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: white;
+    box-shadow: 5px 6px 9px#828899d3;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #dfe2f1;
+        color: #40455f;
+        box-shadow: 5px 6px 7.5px#848ba89a;
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+// special button
+.ad-cta-btn {
+    background: hsl(229, 95%, 63%);
+    width: 20vw;
+    height: 11vh;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.85vw;
+    box-shadow: 4px 7px 10px#7987a8d3;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #f4f5fd;
+        color: #40455f;
+        box-shadow: 5px 6px 7.5px#848ba89a;
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+.learn-more-btn {
+    background-color: $learnMoreBtnBkg;
+    color: $learnMoreBtnClr;
+}
+
+// select inputs
+select {
+    background-color: #eff0f7;
+    box-shadow: 5px 8px 15px #cbcfe2ad;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 40px;
+    width: 30vw;
+    margin-bottom: 25px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #d3d7e4;
+
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+// regular inputs
+input {
+    background-color: #eff0f7;
+    box-shadow: 5px 8px 15px #cbcfe2ad;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 40px;
+    width: 30vw;
+    margin-bottom: 25px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #d3d7e4;
+
+        transition: all ease-in-out 0.25s;
+    }
+}
+
+// text areas
+textarea {
+    font-family: 'Open Sans', sans-serif;;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 8px 15px #cbcfe2ad;
+    background: #eceef5;
+    padding: 1rem;
+    height: 300%;
+    width: 90%;
+}
+
+/* --- helper classes --- */
+
+// flexbox
+.flex {
+    display: flex;
+
+    // flex directon coloumn
+    &-col {
+        flex-direction: column;
+    }
+    // justify content center
+    &-jc-c {
+        justify-content: center;
+    }
+    // justify content space betweem
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    // align items center
+    &-ai-c {
+        align-items: center;
+    }
+
+    &-reverse {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+}
+
+// banners
+.banner-ad-container {
+    background-color: $banner_ad_bkg_clr;
+    box-shadow: 15px 15px 2em #c3c7da;
+    color: #383C4D;
+    width: 85%;
+    height: 100%;
+    padding: 5%;
+    border-radius: 70px;
+    h2 {
+        font-size: 2.4vw;
+    }
+
+    p {
+        font-size: 1.4vw;
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+
+.bold {
+    font-weight: 650;
+}
+
+.margin-top-1vh {
+    margin-top: 1vh;
+}
+
+.disappear {
+    display: none;
+}
+
+.highlight {
+    color: #002affad;
+    font-weight: 700;
+}
+
+// gradients
+.bottom-white-gradient {
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(0deg, white, rgba(255, 255, 255, 0.678), rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0));
+}
+
+.top-white-gradient {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(white, rgba(255, 255, 255, 0.678), rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0));
+}
+
+.whiteleft {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0.349), rgba(255, 255, 255, 0));
+}
+
+.whiteRight {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    background: linear-gradient(to left, white, rgba(255, 255, 255, 0.349), rgba(255, 255, 255, 0));
+}

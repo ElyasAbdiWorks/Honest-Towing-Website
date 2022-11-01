@@ -1,0 +1,90 @@
+.testimonials-container {
+    background: $testimonials_bg;
+    width: 100%;
+    height: 100%;
+    padding: 120px 0 0 0;
+
+    .testimonials-title {
+        margin-left: 10vw;
+    }
+
+    .testimonials-description {
+        margin: 0 0 0 11vw;
+    }
+    h3 {
+        margin-top: 2vw;
+        font-weight: 300;
+    }
+
+    .reviews-container {
+        display: grid;
+        gap: 5vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 50px 8vw 50px 10vw;
+        width: 100%;
+        height: 100%;
+    }
+
+    .message-container {
+        gap: 10px;
+        font-size: 2vw;
+        margin-bottom: 50px;
+        button {
+            border-radius: 26px;
+            font-size: 2vw;
+            font-weight: 700;
+        }
+    }
+}
+
+.review-container {
+    background-color: white;
+    box-shadow: 15px 10px 3.5em #787b88c0;
+    width: 100%;
+    padding: 15% 15% 40%;
+    border-radius: 70px;
+
+    .customer {
+        margin-top: 2vh;
+        margin-bottom: 10px;
+        .customer-initials {
+            background-color: #d6daeb;
+            width: 3.5vw;
+            height: 3.5vw;
+            padding: 10px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.3vw;
+            color: #5c5f70;
+            box-shadow: 4px 4px 10px #aaabbb;;
+        }
+        h5 {
+            font-weight: 400;
+            font-size: 1.4vw;
+            margin-left: 6%;
+        }
+    }
+
+    .stars-container {
+        position: relative;
+        height: 3vh;
+        width: 65%;
+        margin-bottom: 3vh;
+        margin-top: 4vh;
+    }
+
+    .quality-container {
+        h3 {
+            font-size: 1.5vw;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+    }
+
+    .review-descp {
+        p {
+            font-size: 1.2vw;
+        }
+    }
+
+}
